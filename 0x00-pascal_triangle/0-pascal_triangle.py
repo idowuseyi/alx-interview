@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 '''Function that prints pascals triangle with the height as input.'''
 
 
