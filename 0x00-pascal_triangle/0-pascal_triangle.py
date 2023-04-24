@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-""" Function that prints pascals triangle. """
+
+'''Function that prints pascals triangle with the height as input.'''
 
 
 def pascal_triangle(n):
-    if n == 0:
-        return []
+    '''Function that return a pascal triangle'''
+    check_result = []
+    if type(n) is not int or n <= 0:
+        return check_result
     result = [[1]]
     for i in range(1,n):
         row = [1]
