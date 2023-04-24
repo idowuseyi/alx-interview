@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-Function that prints pascals triangle.
-"""
+""" Function that prints pascals triangle. """
+
 
 def pascal_triangle(n):
     if n == 0:
